@@ -428,4 +428,240 @@
 // }
 // }
 
+// // Chapter#14-16
+// // Question#1 & 2
+
+// var studentNames = [];
+
+// // Question # 3
+
+// var stringArray = ["Karachi", "Lahore", "Islamabad", "Multan"];
+
+// // Question # 4
+
+// var numberArray = [1,2,3,4,5,6,7,8,9];
+
+// // Question # 5
+
+// var booleanArray = [true, false];
+
+// // Question # 6
+
+// var mixedArray = ["Pakistan", "China", 1, 2, 3, 4, true, false];
+
+// // Question # 7
+
+// var qualificationsInPakistan = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]; 
+
+// // Question # 8
+
+// var names = ["Roashan", "Abyyan", "Aira"];
+// var score = [484, 450, 460];
+// var total = 500;
+
+// document.write("<h3>" + "Score of " + names[0] + "  is " + score[0] + ". Pecentage:  " + ((score[0]*100)/total) + "%" + "</h3>")
+// document.write("<h3>" + "Score of " + names[1] + "  is " + score[1] + ". Pecentage:  " + ((score[1]*100)/total) + "%" + "</h3>")
+// document.write("<h3>" + "Score of " + names[2] + "  is " + score[2] + ". Pecentage:  " + ((score[2]*100)/total) + "%" + "</h3>")
+
+// // Question # 10
+
+// var studentScores = [87,76,93,56,73,84,90,48];
+// document.write("Scores of Students :  " + studentScores);
+
+
+// var sortedScores = studentScores.sort()
+
+// document.write("<br/>" + "<br/>" + "Ordered Scores of Students :  " + studentScores);
+
+// // Question # 11
+
+// var  citiesNames = ["Karachi", "Lahore", "Multan", "Islamabad", "Quetta" ];
+
+// var selectedCities = citiesNames.slice(0, 3)
+
+// document.write("<h3>" + "Cities Names" +"</h3>")
+
+// document.write("<h4>" + citiesNames +"</h4>")
+
+// document.write("<h3>" + "Selected Cities Names" +"</h3>")
+
+// document.write("<h4>" + selectedCities +"</h4>")
+
+// // Question # 12
+
+// var arr = ["This", "is", "my",  "cat"];
+// document.write("<h1>" + "Array:  "+ "</h1>");
+// document.write("<h1>" + arr + "</h1>" +"<br>");
+
+// var joined_arr = arr.join(" ");
+
+// document.write("<h1>" + "String:  "+ "</h1>");
+// document.write("<h1>" + joined_arr + "</h1>" +"<br>");
+
+// // Question # 13
+
+// var devices = ["keyboard", "mouse", "monitor",  "printer"];
+
+// document.write("<h2>" + "Devices:  "+ "</h2>");
+// document.write("<h2>" + devices + "</h2>" +"<br>");
+
+// var firstDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + firstDevice +"</h2>")
+
+// var secondDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + secondDevice +"</h2>")
+
+// var thirdDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + thirdDevice +"</h2>")
+
+// var fourthDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + fourthDevice +"</h2>")
+
+// // Question # 14    
+
+// var devices = ["keyboard", "mouse", "monitor",  "printer"];
+
+// document.write("<h2>" + "Devices:  "+ "</h2>");
+// document.write("<h2>" + devices + "</h2>" +"<br>");
+
+// var firstDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + firstDevice +"</h2>")
+
+// var secondDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + secondDevice +"</h2>")
+
+// var thirdDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + thirdDevice +"</h2>")
+
+// var fourthDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + fourthDevice +"</h2>")
+
+// // Question # 15
+
+// var mobileCompanies = ["Apple","Samsung", "Motorola", "Nokia","Sony", "Haier"];
+
+
+// document.write("<select>")
+// document.write("<option>"  + mobileCompanies[0]  + "</option>")
+// document.write("<option>" + mobileCompanies[1] + "</option>")
+// document.write("<option>" + mobileCompanies[2] + "</option>")
+// document.write("<option>" + mobileCompanies[3] + "</option>")
+// document.write("<option>" + mobileCompanies[4] + "</option>")
+// document.write("<option>" + mobileCompanies[5] + "</option>")
+// document.write("</select>")
+
+// // Chapter # 17-20
+
+// // Question # 1
+
+// var mulDimArr = [[], [], []];
+
+// // Question # 2
+
+// var mulDimArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+
+// document.write(mulDimArray[0] + "<br>" + mulDimArray[1] + "<br>" + mulDimArray[2] + "<br>");
+
+// // Question # 3
+
+// for (var i = 1; i <= 10; i++) {
+//     document.write(i + "<br />")
+// }
+
+// // Question # 4
+
+// var tableOf = +prompt("Enter number to  show its multiplication table:");
+// var tableStart = +prompt("Start of " + tableOf + "'s table:")
+// var tableTill = +prompt("End of " + tableOf + "'s table:");
+
+// document.write("<h4>" + "Table of " + tableOf + "</h4>")
+
+// for (var i = tableStart; i <= tableTill ; i++) {
+//     document.write("<h4>" + tableOf + " x " + i + " = " + tableOf*i + "</h4>")
+// }
+
+// // Question # 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for (var i = 0; i < fruits.length ; i++) {
+//     document.write(fruits[i] + "<br/>")
+// }
+// document.write("<br/>" + "<br/>")
+// for (var i = 0; i < fruits.length ; i++) {
+//     document.write("Element at index  " + i + " is " + fruits[i], "<br>")
+// }
+
+// // Question # 6
+
+// document.write("<h1>" + "Counting:" + "</h1>");
+// for (var i = 1; i <= 15 ; i++) {
+//     document.write(i + " ")
+// }
+
+// document.write("<h1>" + "Reverse Counting:" + "</h1>");
+// for (var i = 10; i >= 1 ; i--) {
+//     document.write(i + " ")
+// }
+
+// document.write("<h1>" + "Even Numbers:" + "</h1>");
+// for (i = 0; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+//         document.write(i + " ")
+//     }
+// }
+
+// document.write("<h1>" + "Odd Numbers:" + "</h1>");
+// for (i = 0; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+
+
+//     } else {
+//         document.write(i + " ")
+//     }
+// }
+
+// document.write("<h1>" + "Series:" + "</h1>");
+// for (i = 2; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+//         document.write(i + "k" + "  ")
+//     }
+// }
+
+// // Question # 7
+
+// A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// userInput = prompt("Enter a snack :")
+// flag = false;
+// for (i = 0; i <= A.length; i++) {
+//     if (userInput == A[i]) {
+//         flag = true;
+//         userInput = A[i];
+//         number = i;
+//     }
+// }
+// if (flag == true) {
+//     document.write(userInput + " is available at index " + number + " in our bakery")
+// }
+// else {
+//     document.write("We are Sorry. " + userInput + " is not available")
+// }
+
+// // Question # 8
+
+// var a = [24, 53, 78, 91, 12];
+// var max = 0;
+
+// document.write("<h4>" + "Array Items:   " + a + "</h4>");
+
+// for(var i = 0; i < a.length; i++){
+//         if(max < a[i]){
+//             max = a [i];
+//         }
+// }
+
+// document.write("<h4>" + "The largest number is " + max + "</h4>")
 
