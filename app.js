@@ -1012,3 +1012,159 @@
     //         document.write("Sorry, wrong guess. The secret number was: " + secretNumber);
     //     }
     // }
+
+    // Chapter# 31-34
+
+    // Question # 1
+
+    // var now = new Date();
+    // document.write("Current Date and Time: <strong>" + now + "</strong>");
+
+ // Question # 2
+
+    // var months = [
+    //     "January", "February", "March", "April", "May", "June",
+    //     "July", "August", "September", "October", "November", "December"
+    // ];
+
+    // var now = new Date();
+
+    // var monthIndex = now.getMonth();
+
+    // var currentMonth = months[monthIndex];
+
+    // alert("Current month is: " + currentMonth);
+
+ // Question # 3
+
+    // var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    // var now = new Date();
+    // var dayIndex = now.getDay();
+
+    // var shortDay = days[dayIndex].slice(0, 3);
+
+    // alert("Today is: " + shortDay);
+           
+// Question # 4
+
+    // var now = new Date();
+    // var day = now.getDay();  // 0 = Sunday, 6 = Saturday
+
+    // if (day === 0 || day === 6) {
+    //     document.write("It's Fun day");
+    // } else {
+    //     document.write("It's a regular day");
+    // }
+
+// Question # 5
+
+    // var today = new Date();
+    // var date = today.getDate(); // gets day of month (1-31)
+
+    // if (date < 16) {
+    //     document.write("First fifteen days of the month");
+    // } else {
+    //     document.write("Last days of the month");
+    // }
+
+ // Question # 6
+
+    // d = new Date();
+
+    // var msSinceEpoch = d.getTime();
+
+    // var minutesSinceEpoch = Math.floor(msSinceEpoch / (1000 * 60));
+
+    // document.write("Minutes since midnight, Jan 1, 1970: " + minutesSinceEpoch);
+
+// Question # 7
+
+    // var now = new Date();
+    // var hours = now.getHours(); // 0 - 23
+
+    // if (hours < 12) {
+    //     alert("It's AM");
+    // } else {
+    //     alert("It's PM");
+    // }
+
+ // Question # 8
+
+    //  var laterDate = new Date(2020, 11, 31);  // Month is 0-indexed (0=Jan, 11=Dec)
+
+    // document.write("Later date: " + laterDate);
+
+     // Question # 9
+
+    // var ramadanStart = new Date(2015, 5, 18); // Months are 0-indexed, so 5 = June
+
+    // var today = new Date();
+
+    // var diffMs = today - ramadanStart;
+
+    // var diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+    // alert("Days passed since 1st Ramadan (June 18, 2015): " + diffDays);
+
+// Question # 10
+
+    // var referenceDate = new Date();
+
+    // var start2015 = new Date(2015, 0, 1); // Month 0 = January
+
+    // var diffMs = referenceDate - start2015;
+
+    // var diffSeconds = Math.floor(diffMs / 1000);
+
+    // document.write("Seconds elapsed between Jan 1, 2015 and now: <strong>" + diffSeconds + "</strong>");
+
+// Question # 11
+
+    // var currentDate = new Date();
+
+    // var currentHour = currentDate.getHours();
+
+    // currentDate.setHours(currentHour + 1);
+
+    // document.write("Date and time one hour ahead: <strong>" + currentDate + "</strong>");
+
+ // Question # 13
+
+    // var age = prompt("Enter your age:");
+
+    // age = Number(age);
+
+    // var currentYear = new Date().getFullYear();
+
+    // var birthYear = currentYear - age;
+
+    // if (!isNaN(birthYear) && birthYear > 1900 && birthYear <= currentYear) {
+    //     document.write("Your birth year is: <strong>" + birthYear + "</strong>");
+    // } else {
+    //     document.write("Please enter a valid age.");
+    // }
+
+// Question # 14
+
+    // var customerName = prompt("Enter customer name:");
+
+    // var months = [
+    //     "January", "February", "March", "April", "May", "June",
+    //     "July", "August", "September", "October", "November", "December"
+    // ];
+    // var currentMonth = months[new Date().getMonth()];
+
+    // document.write("<h2>K-Electric Bill</h2>");
+    // document.write("<p><strong>Customer Name:</strong> " + customerName + "</p>");
+    // document.write("<p><strong>Current Month:</strong> " + currentMonth + "</p>");
+
+ // Question # 12
+
+    // var currentDate = new Date();
+
+    // var currentYear = currentDate.getFullYear();
+
+    // currentDate.setFullYear(currentYear - 100);
+
+    // alert("Date 100 years back: " + currentDate);
