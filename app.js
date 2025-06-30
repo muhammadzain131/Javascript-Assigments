@@ -665,3 +665,204 @@
 
 // document.write("<h4>" + "The largest number is " + max + "</h4>")
 
+// CHAPTER # 21 = 25
+
+// Question # 1
+// var firstName = prompt('Enter Your First Name')
+
+// var LastName = prompt('Enter Your Last Name')
+
+// var FullName = firstName +' '+ LastName
+
+// document.write(FullName)
+
+// Question#2
+  // var phoneModel = prompt("What is your favorite mobile phone model?");
+
+
+  // var inputLength = phoneModel.length;
+
+ 
+  // document.write("Your favorite mobile phone model is: " + phoneModel + "<br>");
+  // document.write("Length of input: " + inputLength);
+
+  // Question # 3
+  // var word = "Pakistani";
+
+  // var index = word.indexOf("n");
+
+  // document.write("The word is: " + word + "<br>");
+  // document.write("Index of letter 'n': " + index);
+
+  // Question # 4
+  // var text = "Hello World";
+
+  // var lastIndex = text.lastIndexOf("l");
+
+  // document.write("The text is: " + text + "<br>");
+  // document.write("Last index of letter 'l': " + lastIndex);
+
+  // Question#5
+    // var word = "Pakistani";
+
+    // var charAtIndex3 = word.charAt(3);
+
+    // document.getElementById("result").innerHTML = "The character at index 3 in 'Pakistani' is: " + charAtIndex3;
+
+// Question#6
+    // var word = "Pakistani";
+
+    // var charAtIndex3 = word.charAt(3); // 'i'
+
+    // var message = "The character at index 3 in '".concat(word).concat("' is: ").concat(charAtIndex3);
+
+    // document.getElementById("result").innerHTML = message;
+
+    // Question#7
+        // let originalWord = "Hyderabad";
+
+        // let modifiedWord = originalWord.replace("Hyder", "Islam");
+
+        // document.write("Original Word: " + originalWord + "<br>");
+        // document.write("Modified Word: " + modifiedWord);
+
+ // Question#8
+      //  var message = "Ali and Sami are best friends. They play cricket and football together.";
+
+      //   var modifiedMessage = message.replaceAll("and", "&");
+
+      //   document.write("<strong>Original Message:</strong><br>" + message + "<br><br>");
+      //   document.write("<strong>Modified Message:</strong><br>" + modifiedMessage);  
+
+ // Question#9           
+  //       var str = "472";            // Original string
+  //       var num = Number(str);      // Convert string to number
+
+  //       document.write("<strong>Value:</strong> " + str + "<br>");
+  //       document.write("<strong>Type:</strong> " + typeof str + "<br><br>");
+
+  //       document.write("<strong>Value:</strong> " + num + "<br>");
+  //       document.write("<strong>Type:</strong> " + typeof num);
+
+   // Question#10
+      //  var userInput = prompt("Enter some text:");
+
+      //   var upperCaseInput = userInput.toUpperCase();
+
+      //   document.write("<strong>Original Input:</strong> " + userInput + "<br>");
+      //   document.write("<strong>Uppercase Input:</strong> " + upperCaseInput);
+
+      // Question#11
+        // var userInput = prompt("Enter some text:");
+
+        // function toTitleCase(str) {
+        //     return str
+        //         .toLowerCase()
+        //         .split(" ")
+        //         .map(function(word) {
+        //             return word.charAt(0).toUpperCase() + word.slice(1);
+        //         })
+        //         .join(" ");
+        // }
+
+        // var titleCaseInput = toTitleCase(userInput);
+
+        // document.write("<strong>Original Input:</strong> " + userInput + "<br>");
+        // document.write("<strong>Title Case:</strong> " + titleCaseInput);
+
+        // // Question#12
+        //      var num = 35.36;
+
+        // var numStr = num.toString();
+
+        // var result = numStr.replace(".", "");
+
+        // document.write("<strong>Original Number:</strong> " + num + "<br>");
+        // document.write("<strong>Converted String (No Dot):</strong> " + result);
+
+  // Question#13      
+      //  function isValidUsername(username) {
+      //       var invalidChars = ['@', '.', ',', '!'];
+      //       for (var i = 0; i < invalidChars.length; i++) {
+      //           if (username.includes(invalidChars[i])) {
+      //               return false;
+      //           }
+      //       }
+      //       return true;
+      //   }
+
+      //   var username = prompt("Enter your username:");
+        
+      //   while (!isValidUsername(username)) {
+      //       alert("Invalid username! Please do not use any of these characters: @ . , !");
+      //       username = prompt("Enter a valid username:");
+      //   }
+
+      //   document.write("<strong>Valid Username:</strong> " + username);
+
+      // // Question# 14
+
+      //   var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+      //   var userInput = prompt("Welcome to the bakery! What would you like to order?");
+
+      //   var searchItem = userInput.toLowerCase();
+
+      //   var found = false;
+
+      //   for (var i = 0; i < A.length; i++) {
+      //       if (A[i].toLowerCase() === searchItem) {
+      //           found = true;
+      //           break;
+      //       }
+      //   }
+
+      //   if (found) {
+      //       alert(userInput + " is available at index " + i + " in our bakery.");
+      //   } else {
+      //       alert("We are sorry. " + userInput + " is not available in our bakery.");
+      //   }   
+      
+      // Question# 16
+        //       var university = "University of Karachi";
+
+        // var universityArray = university.split("");
+
+        // for (var i = 0; i < universityArray.length; i++) {
+        //     document.write(universityArray[i] + "<br>");
+        // }
+
+ // Question# 17
+        // var userInput = prompt("Enter any text:");
+
+        // if (userInput && userInput.length > 0) {
+        //     var lastChar = userInput.charAt(userInput.length - 1);
+
+        //     document.write("<strong>Input:</strong> " + userInput + "<br>");
+        //     document.write("<strong>Last Character:</strong> " + lastChar);
+        // } else {
+        //     document.write("You did not enter any text!");
+        // }
+
+ // Question# 18
+    //  var str = "The quick brown fox jumps over the lazy dog";
+
+    //     // Convert string to lowercase to make search case-insensitive
+    //     var lowerStr = str.toLowerCase();
+
+    //     // Split the string into words (split by spaces)
+    //     var words = lowerStr.split(" ");
+
+    //     // Count occurrences of 'the'
+    //     var count = 0;
+    //     for (var i = 0; i < words.length; i++) {
+    //         if (words[i] === "the") {
+    //             count++;
+    //         }
+    //     }
+
+    //     // Display the result
+    //     document.write("Text: " + str + "<br>");
+    //     document.write("Number of occurrences of word 'the': " + count);
+
+
