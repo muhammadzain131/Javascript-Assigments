@@ -865,4 +865,150 @@
     //     document.write("Text: " + str + "<br>");
     //     document.write("Number of occurrences of word 'the': " + count);
 
+    // chapter#26-30
+    // Question # 1
 
+// Write a program that takes a positive integer from user &
+// display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+// Answer
+
+        // var userInput = prompt("Enter a positive number:");
+
+        // var num = parseFloat(userInput);
+
+        // if (isNaN(num) || num <= 0) {
+        //     document.write("Please enter a valid positive number.");
+        // } else {
+        //     document.write("<strong>Number:</strong> " + num + "<br>");
+        //     document.write("<strong>Round off value:</strong> " + Math.round(num) + "<br>");
+        //     document.write("<strong>Floor value:</strong> " + Math.floor(num) + "<br>");
+        //     document.write("<strong>Ceil value:</strong> " + Math.ceil(num) + "<br>");
+        // }
+        
+      // Question # 2
+
+// Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+// Answer
+
+    // var userInput = prompt("Enter a negative floating point number:");
+
+    // var num = parseFloat(userInput);
+
+    // if (isNaN(num) || num >= 0) {
+    //     document.write("Please enter a valid <strong>negative</strong> floating point number.");
+    // } else {
+    //     document.write("<strong>Number:</strong> " + num + "<br>");
+    //     document.write("<strong>Round off value:</strong> " + Math.round(num) + "<br>");
+    //     document.write("<strong>Floor value:</strong> " + Math.floor(num) + "<br>");
+    //     document.write("<strong>Ceil value:</strong> " + Math.ceil(num) + "<br>");
+    // }
+
+    // Question # 3
+// Write a program that displays the absolute value of a
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+// Answer
+
+    // var userInput = prompt("Enter a number:");
+
+    // var num = Number(userInput);
+
+    // if (isNaN(num)) {
+    //     document.write("Please enter a valid number.");
+    // } else {
+    //     var absValue = Math.abs(num);
+
+    //     document.write("The absolute value of " + num + " is " + absValue + ".");
+    // }
+
+    // question# 4
+//  Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// browser.:
+
+// Answer
+
+    // var diceValue = Math.floor(Math.random() * 6) + 1;
+
+    // document.write("You rolled a dice and got: <strong>" + diceValue + "</strong>");
+
+  // Question # 5
+// Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+
+// Answer
+
+    // var toss = Math.floor(Math.random() * 2);
+
+    // var coin = toss === 0 ? "Heads" : "Tails";
+
+    // document.write("The coin toss result is: <strong>" + coin + "</strong>");
+
+//  Questiom # 6
+// Write a program that shows a random number between 1
+// and 100 in your browser. 
+
+// Answer
+
+// var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+// document.write("Random number between 1 and 100: <strong>" + randomNumber + "</strong>");
+
+// Question # 7
+// Write a program that asks the user about his weight. Parse
+// the user input and display his weight in your browser.
+// Possible user inputs can be:
+// a. 50
+// b. 50kgs
+// c. 50.2kgs
+// d. 50.2kilograms
+
+// Answer
+
+    // var input = prompt("Enter your weight (e.g., 50, 50kgs, 50.2kgs, 50.2kilograms):");
+
+    // var weightMatch = input.match(/^\d+(\.\d+)?/);
+
+    // if (weightMatch) {
+    //     var weight = weightMatch[0];
+    //     document.write("Your weight is: <strong>" + weight + "</strong> kilograms");
+    // } else {
+    //     document.write("Invalid input. Please enter your weight properly.");
+   // }
+
+  //  Question # 8
+//   Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+
+// Answer
+
+    // var secretNumber = Math.floor(Math.random() * 10) + 1;
+
+    // var userGuess = prompt("Guess the secret number between 1 and 10:");
+
+    // var guess = Number(userGuess);
+
+    // if (isNaN(guess) || guess < 1 || guess > 10) {
+    //     document.write("Please enter a valid number between 1 and 10.");
+    // } else {
+    //     if (guess === secretNumber) {
+    //         document.write("Congratulations! You guessed the secret number: " + secretNumber);
+    //     } else {
+    //         document.write("Sorry, wrong guess. The secret number was: " + secretNumber);
+    //     }
+    // }
